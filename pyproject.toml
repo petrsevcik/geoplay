@@ -1,0 +1,13 @@
+[project]
+name = "geoplay"
+version = "0.1.0"
+description = "Playwright with geolocation setup for anti-scraping"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.57.0",
+    "geoip2>=4.8.0",
+    "curl-cffi>=0.14.0",
+    "python-decouple>=3.8",
+    "loguru>=0.7.3",
+]
